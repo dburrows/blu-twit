@@ -1,12 +1,16 @@
 {
   "name": "blu-twit",
-  "version": "1.0.0",
   "description": "A wrapper for the Twit module that uses the Bluebird promise library to add `getAsync` and `postAsync` methods that return promises",
+  "version": "1.0.0",
   "main": "blu-twit.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha"
   },
   "author": "David Burrows <david@designsuperbuild.com> (http://www.designsuperbuild.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dburrows/blu-twit.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "nock": "~0.51.0",
