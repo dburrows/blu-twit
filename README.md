@@ -29,7 +29,7 @@ bt.postAsync('statuses/update', { status: 'hello world!' })
 
 Same as Twit but the Get and Post methods now have versions that return promises. The full Twit API is still available so streaming etc. will work as normal.
 
-###`getAync(path, [params])`
+###`getAsync(path, [params])`
 
 Returns a promise instead of using a callback. As Twit returns two params the fulfilled value will be an array of [data, response], see example above of using the `spread` method to simplify your `then` handler.
 
